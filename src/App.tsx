@@ -1,6 +1,6 @@
 import React from 'react';
 import { Play, BookOpen, List, ArrowRight, Zap, TrendingUp, DollarSign } from 'lucide-react';
-import { GoogleFormEmbed } from './components/GoogleFormEmbed';
+import { EmailForm } from './components/EmailForm';
 
 const VideoThumbnail = ({ 
   src, 
@@ -123,9 +123,10 @@ function App() {
           </h2>
           <p className="text-xl text-gray-300 mb-12">Secure your exclusive spot before it's too late!</p>
           
-          <GoogleFormEmbed 
+          <EmailForm 
             title="🚀 Reserve Your Spot Now!"
             subtitle="227 entrepreneurs have already secured their place - don't get left behind!"
+            source="hero-cta"
           />
         </div>
       </section>
@@ -169,7 +170,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://i.ibb.co/hFphcTjT/founders.png"
                 alt="HEBED AI Instructors"
                 className="w-full h-auto object-cover rounded-lg max-h-96"
               />
@@ -236,11 +237,12 @@ function App() {
                 </div>
                 
                 <div className="mb-8">
-                  <GoogleFormEmbed 
+                  <EmailForm 
                     title="⚡ Claim Your Spot!"
                     subtitle="Only 33 spots remaining out of 260 total!"
                     className="bg-white border border-gray-200"
                     showUrgency={false}
+                    source="product-banner"
                   />
                 </div>
                 
@@ -259,7 +261,7 @@ function App() {
             
             <div>
               <img 
-                src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://i.ibb.co/LdX856PD/trust.png"
                 alt="HEBED AI Course Material"
                 className="w-full h-auto object-cover rounded-lg max-h-96"
               />
@@ -291,7 +293,7 @@ function App() {
                 quote="I used to think AI was only for big corporations. After Module 2, I automated my customer follow-ups and saved at least 6 hours a week. The templates were practical, and I launched my first chatbot by the end of Week 3. It's like having a digital team working 24/7."
                 author="Grace A., Nairobi"
                 role="Boutique Owner"
-                image="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=200"
+                image="https://i.ibb.co/60FrgLw0/Confident-Portrait-of-a-Beautiful-Woman.png"
               />
             </div>
             
@@ -300,14 +302,14 @@ function App() {
                 quote="This course changed how I work. The AI marketing tools helped me triple my content output. Clients noticed immediately. I even booked two new projects thanks to the portfolio I built using the course exercises."
                 author="Thabo M., Johannesburg"
                 role="Digital Consultant"
-                image="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=200"
+                image="https://i.ibb.co/NnN8HwWP/Calm-Portrait-on-Beige-Background.png"
               />
               
               <TestimonialCard
                 quote="The 90-day action plan was gold. It forced us to prioritize, track ROI, and implement automations that actually matter. We're now running leaner and smarter—without needing a full-time ops team."
                 author="John S., Accra"
                 role="SaaS Founder"
-                image="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=200"
+                image="https://i.ibb.co/gbfVNs3D/Confident-Smile-in-Classic-Suit.png"
               />
             </div>
           </div>
@@ -324,9 +326,10 @@ function App() {
             227 forward-thinking entrepreneurs have already secured their spot. Don't let this opportunity slip away!
           </p>
           
-          <GoogleFormEmbed 
+          <EmailForm 
             title="🔥 FINAL CALL - Reserve Now!"
             subtitle="Join the exclusive group transforming their business with AI"
+            source="final-cta"
           />
         </div>
       </section>
