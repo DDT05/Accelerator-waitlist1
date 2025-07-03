@@ -172,7 +172,7 @@ function App() {
               <img 
                 src="https://i.ibb.co/hFphcTjT/founders.png"
                 alt="HEBED AI Instructors"
-                className="w-full h-auto object-contain rounded-lg max-h-96"
+                className="w-full h-auto object-cover rounded-lg max-h-96"
               />
             </div>
             <div>
@@ -260,10 +260,10 @@ function App() {
             </div>
             
             <div>
-            <img 
-                src="https://i.ibb.co/hFphcTjT/founders.png"
-                alt="HEBED AI Instructors"
-                className="w-full h-auto object-contain rounded-lg max-h-96"
+              <img 
+                src="https://i.ibb.co/LdX856PD/trust.png"
+                alt="HEBED AI Course Material"
+                className="w-full h-auto object-cover rounded-lg max-h-96"
               />
             </div>
           </div>
