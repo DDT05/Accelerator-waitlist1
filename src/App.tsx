@@ -169,9 +169,9 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://i.ibb.co/hFphcTjT/founders.png"
                 alt="HEBED AI Instructors"
-                className="w-full h-auto object-cover rounded-lg max-h-96"
+                className="w-full h-auto object-contain rounded-lg max-h-96"
               />
             </div>
             <div>
@@ -258,11 +258,7 @@ function App() {
             </div>
             
             <div>
-              <img 
-                src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="HEBED AI Course Material"
-                className="w-full h-auto object-cover rounded-lg max-h-96"
-              />
+              <img src="https://i.ibb.co/LdX856PD/trust.png" alt="HEBED AI Course Material" border="0" className="w-full h-auto object-contain rounded-lg max-h-96" />
             </div>
           </div>
         </div>
@@ -291,7 +287,7 @@ function App() {
                 quote="I used to think AI was only for big corporations. After Module 2, I automated my customer follow-ups and saved at least 6 hours a week. The templates were practical, and I launched my first chatbot by the end of Week 3. It's like having a digital team working 24/7."
                 author="Grace A., Nairobi"
                 role="Boutique Owner"
-                image="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=200"
+                image="https://i.ibb.co/60FrgLw0/Confident-Portrait-of-a-Beautiful-Woman.png"
               />
             </div>
             
@@ -300,14 +296,14 @@ function App() {
                 quote="This course changed how I work. The AI marketing tools helped me triple my content output. Clients noticed immediately. I even booked two new projects thanks to the portfolio I built using the course exercises."
                 author="Thabo M., Johannesburg"
                 role="Digital Consultant"
-                image="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=200"
+                image="https://i.ibb.co/NnN8HwWP/Calm-Portrait-on-Beige-Background.png"
               />
               
               <TestimonialCard
                 quote="The 90-day action plan was gold. It forced us to prioritize, track ROI, and implement automations that actually matter. We're now running leaner and smarter—without needing a full-time ops team."
                 author="John S., Accra"
                 role="SaaS Founder"
-                image="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=200"
+                image="ttps://i.ibb.co/gbfVNs3D/Confident-Smile-in-Classic-Suit.png"
               />
             </div>
           </div>
