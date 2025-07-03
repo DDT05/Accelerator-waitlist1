@@ -303,7 +303,7 @@ function App() {
                 quote="The 90-day action plan was gold. It forced us to prioritize, track ROI, and implement automations that actually matter. We're now running leaner and smarter—without needing a full-time ops team."
                 author="John S., Accra"
                 role="SaaS Founder"
-                image="ttps://i.ibb.co/gbfVNs3D/Confident-Smile-in-Classic-Suit.png"
+                image="https://i.ibb.co/gbfVNs3D/Confident-Smile-in-Classic-Suit.png"
               />
             </div>
           </div>
