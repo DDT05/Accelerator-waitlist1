@@ -125,7 +125,7 @@ function App() {
           
           <EmailForm 
             title="🚀 Reserve Your Spot Now!"
-            subtitle="227 entrepreneurs have already secured their place - don't get left behind!"
+            subtitle="876 entrepreneurs have already secured their place - don't get left behind!"
             source="hero-cta"
           />
         </div>
@@ -323,7 +323,7 @@ function App() {
             🚨 Last Chance: Only 33 Spots Remaining!
           </h2>
           <p className="text-xl text-gray-300 mb-12">
-            227 forward-thinking entrepreneurs have already secured their spot. Don't let this opportunity slip away!
+            876 forward-thinking entrepreneurs have already secured their spot. Don't let this opportunity slip away!
           </p>
           
           <EmailForm 
